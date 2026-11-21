@@ -35,7 +35,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          VITE_API_BASE_URL: https://api.tasklist.fun/api
+          VITE_API_BASE_URL: https://tasklist-backend.relaxdev.ru/api
           VITE_BASE_PATH: /tasklist/
 
       - name: Upload Pages artifact
